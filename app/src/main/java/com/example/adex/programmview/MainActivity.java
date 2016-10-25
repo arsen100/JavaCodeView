@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //аходим по id layout, в который будем добавлять программно новые элементы
+        //находим по id layout, в который будем добавлять программно новые элементы
         LinearLayout mainL = (LinearLayout) findViewById(R.id.mainLayout);
 
         //создаем параметры для новых элементов, которые определяют их ширину и высоту (используем встроенные константы)
